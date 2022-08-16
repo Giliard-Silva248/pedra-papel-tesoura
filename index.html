@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEDRA, PAPEL E TESOURA</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="ppt">
+            <p>
+                <input type="radio" name="jogo" id="ipedra" value="1">
+                <label for="ipedra">PEDRA</label>
+            </p>
+            <p>
+                <input type="radio" name="jogo" id="ipapel" value="2">
+                <label for="ipapel">PAPEL</label>
+            </p>
+            <p>
+                <input type="radio" name="jogo" id="itesoura" value="3">
+                <label for="itesoura">TESOURA</label>
+            </p>
+        </div>
+        <div class="maquina">
+            MAQUINA
+        </div>
+        <input type="button" value="JOGAR" id="btn" onclick="jogo()">
+    </div>
+    <div class="res">
+        <p>O RESULTADO É: </p>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
