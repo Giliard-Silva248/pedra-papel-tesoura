@@ -2,4 +2,57 @@ body{
     height: 98vh;
     background: radial-gradient(circle, rgba(9,9,121,1) 0%, rgba(0,0,0,1) 100%);
     color: aliceblue;
+    text-align: center;
+}
+
+.container{
+    border: 1px solid;
+    padding: 5px;
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.conteudo{
+   margin: auto; 
+}
+.maquina{
+    width: 100px;
+    margin: auto;
+}
+
+.ppt{
+    display: flex;
+}
+
+img{
+    width: 150px;
+}
+
+.jogo{
+    display: flex;
+    margin: 5px;
+}
+
+#ipedra{
+    width: 160px;
+    height: 250px;
+    background-image: url(pedra.jpg);
+    background-size: cover;
+}
+#ipapel{
+    width: 160px;
+    height: 250px;
+    background-image: url(papel.jpg);
+    background-size: cover;
+}
+#itesoura{
+    width: 160px;
+    height: 250px;
+    background-image: url(tesoura.jpg);
+    background-size: cover;
+}
+
+#ipedra:active, #ipapel:active, #itesoura:active{
+    opacity: 0.5;  
 }
